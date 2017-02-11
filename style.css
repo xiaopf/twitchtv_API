@@ -1,0 +1,82 @@
+body{
+  font-family: Arial;
+}
+.box{
+  width: 700px;
+  margin:0 auto;
+  padding: 0 0 1px 0;
+  background-color:#d3d7d4;
+}
+
+#header{
+  overflow: hidden;
+  position: relative;
+  background-color:#892f1b;
+  height:120px;
+}
+
+#header p{
+  margin:0;
+  color:#fff;
+  font-size:50px;
+  text-align: center;
+  line-height: 120px;
+}
+
+.btn_group{
+  position:absolute;
+  left:700px;
+  top:20px;
+}
+
+.btn{
+  display: block;
+  width:10px;
+  height:24px;
+  padding: 1px 10px 1px 2px;
+  position: absolute;
+  right:0px;
+}
+#btn1{
+  width:80px;
+  top:0px;
+  background-color:#228fbd;
+}
+#btn2{
+  top:28px;
+  background-color:#1d953f; 
+}
+#btn3{
+  top:56px;
+  background-color:#a1a3a6;
+}
+
+.user_box{
+  height: 50px;
+  background-color:green;
+  margin: 2px 0;
+  padding: 5px 20px 5px 10px;
+}
+.logo{
+  border-radius: 50%;
+  float:left;
+  width: 50px;
+  height:50px;
+  margin-right: 10px;
+}
+.name{
+  margin: 16px 0;
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+}
+
+.status{
+  font-weight: bold;
+  display: inline-block;
+  float:right;
+
+}
+.offline{
+  background-color:grey;
+}
