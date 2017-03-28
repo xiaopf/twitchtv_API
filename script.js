@@ -49,7 +49,7 @@ $(document).ready(function(){
         users[i][1]='offline';
       }else{
         users[i][1]='online';
-        users[i][2]=data.stream.channel.game+':'+data.stream.channel.status;
+        users[i][2]=data.stream.channel.game;//+':'+data.stream.channel.status;
       };
 
       ajaxData('channels',users[i][0],function(data){
